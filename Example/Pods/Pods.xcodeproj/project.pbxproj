@@ -8,26 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		01B38726E6FDD7116B28D651F20EE083 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EA37530717FAB27BB8CBC6446A6E91 /* Function.swift */; };
+		06A238AF041E1C9726BDE34F0A491C76 /* UIViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365688951D139782F6005FC6E5CDD0A /* UIViewLenses.swift */; };
+		1094E8AD46C7B055A0A71A58D32CAABD /* CALayerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D8ECEA8DBCB56308C7412D5149DD4 /* CALayerLenses.swift */; };
 		14403BA3D86E98F576FCD7BF8E0C682E /* LensHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F11EF6422EC7B72139119A3D2CC430E /* LensHolder.swift */; };
 		17CAE19716C632F2847585CB271C528C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1F1DCCE79977A4C3FBEFB82E1014A0D8 /* LensHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1661461BC1EF1BA2105FE53C1E8AC1FA /* LensHolder.swift */; };
+		1CE4990A631618D464834D0523A607E1 /* NSMutableParagraphStyleLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768444604AEA9E0ABEF3EC3F0D7B724 /* NSMutableParagraphStyleLenses.swift */; };
+		1E1F3F18BBCB79B37CDBB3192A5B3542 /* UIViewControllerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244757FFDB6C31D324E52427488FB9C /* UIViewControllerLenses.swift */; };
+		1E618E605D1B94726DA66D56439CB577 /* CGSizeLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F37DF21C19FD6DD336B97EB1AFDC4 /* CGSizeLenses.swift */; };
 		1F5E44F5C602F7988A6CD594228FEE30 /* SwiftPrelude-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F55EF8CA973DFD1B4D1B69D993C268 /* SwiftPrelude-dummy.m */; };
-		226B944B167959C387163CFB0C6F3A5F /* SwiftPreludeCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71089931777529D29B9C1C601844C2A4 /* SwiftPreludeCocoa-dummy.m */; };
 		228EB45694B0234913E4AE07A4E05794 /* Lens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A548E997D5A0A9B62A051E3B2B5DD0 /* Lens.swift */; };
+		240D06351307DF0A02810933B5F4379F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F9DB0EC916DE9E3F5153574519E39 /* UIImage.swift */; };
+		27DDF1C9EA1CF7F3FADA4B1B438F28DE /* UIControlLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A15DEA8ED463A79B10FA2D01865F /* UIControlLenses.swift */; };
 		452EDF990936AE35D56B89FA0945FEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4698EB59EA1EE5B9FA0B7210D493CE2E /* UIBarItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D71A1DC6DD0A0051AA7DE57071FA0E /* UIBarItemLenses.swift */; };
 		4899A7B74E13E7EE0DD3758ACFF54989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		49012DF1AB8EE334A0435B9D40E48BC5 /* UIViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D13688202A22FA9281C7D028CEEE48 /* UIViewLenses.swift */; };
 		52968E58EA5B45F388411254065170F3 /* Pods-SwiftPreludeCocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4CE09F71D50382CACE4B683A0C194A /* Pods-SwiftPreludeCocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F7AC6AC638F26D8CE221B03B80E0861 /* SwiftPreludeCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD5E18A98D4821D350E1C83BA293949 /* SwiftPreludeCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A2827598E1D11C9BD5754C8DD6B5AB /* UIBarButtonItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F429CCA2BAE1980B2915D60A5D5AF2 /* UIBarButtonItemLenses.swift */; };
+		560D4F33F7CAF37D83232722DD6EDB15 /* UIButtonLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F657C26215C2E7126769BEFC3870384E /* UIButtonLenses.swift */; };
+		5A0F8A2EBB1A7B92C148EC75AB7ED614 /* CGRectLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A5C654C9F0823B8EBB67B2CF2D8FE /* CGRectLenses.swift */; };
+		6314D16BCEE0E04EA3D64F9D8A295C19 /* UITextViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8541E445A30609FD4194C2D83810018 /* UITextViewLenses.swift */; };
+		644D6FD2EA5CF3F9C84F507506267AD8 /* UIWebViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25424EAE06E5614F7A4746C8605908B3 /* UIWebViewLenses.swift */; };
+		647D9EAC211E361CFFAF0ECD8E3D2F65 /* CGPointLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C89D931743B34F5714C8127A22BA1 /* CGPointLenses.swift */; };
+		6F7AC6AC638F26D8CE221B03B80E0861 /* SwiftPreludeCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B836942EBB9546A3EB715C6BA46BC3DF /* SwiftPreludeCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C3F54259E85ED63D4C4A5DE6B44170 /* SwiftPreludeCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70540F06E32F70FE602BAFAE3DB40576 /* SwiftPreludeCocoa-dummy.m */; };
+		777C01BA9E9A34ED4B95AB32192A4BB6 /* UINavigationControllerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92F8030B5250F00EB405ECCC6510D8 /* UINavigationControllerLenses.swift */; };
+		78D164E5D6D14A30AFE247BC4FB7F258 /* LensHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543BC2902656FEC80F951D3FA2C9CF2 /* LensHolder.swift */; };
 		7AAC4DA8AF231016EE768D1E643812BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		931F1F0E289558EB09F21C878F2BE0FC /* CGPointLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0055134D58BFC630043C8AB6A603B52A /* CGPointLenses.swift */; };
+		8EDE4D42549750281899ECA021C293CF /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740AE7BFFDE04E1EB9D1AD24F3908927 /* UIButton.swift */; };
+		9469E5EBF277F152EEDC33ABDE5EA9C4 /* UITextInputTraitsLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF929EF72467F146C97C326142230E /* UITextInputTraitsLenses.swift */; };
+		9974B0D3D7043D7AB0F61DE2544F2FC7 /* UIImageViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06A6796DF882283A4D552CA317C52C /* UIImageViewLenses.swift */; };
+		9AE576627EE069A49C0D494B122056E1 /* UITabBarLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E980D8A13DCA3E6EE572C9A06D2B3 /* UITabBarLenses.swift */; };
 		9B3D210116244F73B9DA31D5B701F6FC /* Pods-SwiftPreludeCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4671BD53A8EE467DB9ADFA0D5D53 /* Pods-SwiftPreludeCocoa_Tests-dummy.m */; };
+		A02E8C3ADF2239A68981F81C381C31DA /* UITraitEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E78705AD37EB51ED5EB60FA8C809B /* UITraitEnvironment.swift */; };
+		A382F21019F06749D52A8BB6FEB834E2 /* UINavigationItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9DBF5701E4987EDA5DF0CFD4B4E /* UINavigationItemLenses.swift */; };
+		A968EC7FF0EEF0FF81E1DEA090328828 /* UITableViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B01DC7E6B3F3CB18A696EBA4C9C29F /* UITableViewLenses.swift */; };
+		AB40F399A5BF14A2AEEE2A8A6274B653 /* WKWebViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F503DB11D85405CFBF298207A98E740 /* WKWebViewLenses.swift */; };
 		B0BEF866CE27EFF50E10D1086ED6E718 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A7BB3A73059A0DF6AB38F3AC8A0D0 /* Operators.swift */; };
-		B1014972F705E3AD053A8A9C8987172D /* CGRectLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3CC2B07957C426F2F93899B30D3FA /* CGRectLenses.swift */; };
+		B11CFBB7BD7978C6A69382B71C3FD47B /* UITabBarItemLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22745F1F77C2C97CF54E85CA17AE31 /* UITabBarItemLenses.swift */; };
+		B9B7E26F6835868FEE72995392974568 /* NSTextContainerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FA52F37326BD9BDDDC4DE0036A704A /* NSTextContainerLenses.swift */; };
+		BDEA249E4E3EA5A593EC10E399CCE81C /* UIActivityIndicatorViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF610045C46A25AE07685EE55768AA1 /* UIActivityIndicatorViewLenses.swift */; };
+		C87424FFD75D46F4F40A5AAC1EEA3BBA /* UINavigationBarLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF08FDC39C524719E8338FE0BA034B74 /* UINavigationBarLenses.swift */; };
 		C8B0CA0E6499ADDDF03FA5E2BB5558CB /* Pods-SwiftPreludeCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FED7B9ED8E9AEB109EBB25E4FF1A7AA0 /* Pods-SwiftPreludeCocoa_Example-dummy.m */; };
 		D163E32009652E8055C8CD63FBF505C0 /* SwiftPrelude-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40708F048B8AF6EAB9C6AA0F7AF20337 /* SwiftPrelude-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4434B701F2F85CD380AC663F1143152 /* UIImageViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BE0AA054403948D33EB3DC9EBF92C /* UIImageViewLenses.swift */; };
-		E78B16978425BE9C5F5626EB0D650BCC /* CGSizeLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781EA7D9679F4402C7E01A51188606C /* CGSizeLenses.swift */; };
+		D167860901E6A59DEBDF52061AF92983 /* UIScrollViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BD8B615D36647CEAF01DB63D6140A /* UIScrollViewLenses.swift */; };
+		D389B39EA335E509E45AAD6E7445033E /* UILabelLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B69504D2497DF0AED0C47C54D1B9F /* UILabelLenses.swift */; };
+		DB5DA749CD1100FF6FA7C5FB56F1E26B /* UIProgressViewLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8176C309BD4A7623C9DDA4C3C645EA30 /* UIProgressViewLenses.swift */; };
+		F07DA1EB639BC70BE63C2124CA0506E0 /* UIEdgeInsetsLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679FF98185CE3FC56011280D9772C845 /* UIEdgeInsetsLenses.swift */; };
+		F2E5FC56791BB9BE9D2539133211BA44 /* UITableViewControllerLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE788DF5F736E4A1FCB27B00D2F5E3D /* UITableViewControllerLenses.swift */; };
+		FA81574B6D0753D53930E190CBEF9685 /* UITableViewCellLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A73661030AEFB0DBC1C159B4B371E66 /* UITableViewCellLenses.swift */; };
+		FAC830F11EC52F554080A8E1D022AAAE /* UITextFieldLenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076D1BF597C2A5600A44C7BC4DECD5FC /* UITextFieldLenses.swift */; };
 		FD41D25C4420F403E7C89F96522D1A90 /* Pods-SwiftPreludeCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F839CA1983AF7C12F53F5678B0A2610 /* Pods-SwiftPreludeCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -63,53 +92,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0055134D58BFC630043C8AB6A603B52A /* CGPointLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointLenses.swift; path = SwiftPreludeCocoa/Classes/CGPointLenses.swift; sourceTree = "<group>"; };
 		00EA37530717FAB27BB8CBC6446A6E91 /* Function.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Function.swift; path = SwiftPrelude/Classes/Function.swift; sourceTree = "<group>"; };
+		03D71A1DC6DD0A0051AA7DE57071FA0E /* UIBarItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBarItemLenses.swift; sourceTree = "<group>"; };
+		076D1BF597C2A5600A44C7BC4DECD5FC /* UITextFieldLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldLenses.swift; sourceTree = "<group>"; };
 		0EA44D8A964CC75DCEEB1AD60B2B7100 /* Pods_SwiftPreludeCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPreludeCocoa_Example.framework; path = "Pods-SwiftPreludeCocoa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		114766D01E62B69D0EF8CBAA21B3D5D2 /* Pods-SwiftPreludeCocoa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPreludeCocoa_Tests-resources.sh"; sourceTree = "<group>"; };
-		1265CC26BA78E6814593C15B265A772C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1661461BC1EF1BA2105FE53C1E8AC1FA /* LensHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LensHolder.swift; path = SwiftPreludeCocoa/Classes/LensHolder.swift; sourceTree = "<group>"; };
+		179E980D8A13DCA3E6EE572C9A06D2B3 /* UITabBarLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarLenses.swift; sourceTree = "<group>"; };
 		1973323EB1D51EE2B7B64E03450F2FE5 /* SwiftPrelude-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPrelude-prefix.pch"; sourceTree = "<group>"; };
 		1F11EF6422EC7B72139119A3D2CC430E /* LensHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LensHolder.swift; path = SwiftPrelude/Classes/LensHolder.swift; sourceTree = "<group>"; };
 		210EC376B9F089AD5A32CB0A3030DB7A /* SwiftPreludeCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftPreludeCocoa.framework; path = SwiftPreludeCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B3CC2B07957C426F2F93899B30D3FA /* CGRectLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectLenses.swift; path = SwiftPreludeCocoa/Classes/CGRectLenses.swift; sourceTree = "<group>"; };
+		25424EAE06E5614F7A4746C8605908B3 /* UIWebViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIWebViewLenses.swift; sourceTree = "<group>"; };
 		26C7C61CFF7F10E26943E548AE29AB13 /* Pods-SwiftPreludeCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPreludeCocoa_Example.modulemap"; sourceTree = "<group>"; };
 		29B134EFA5B60ED427DD4971F6C640BA /* Pods-SwiftPreludeCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPreludeCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29F643E7129F509561893BD3C552589D /* SwiftPreludeCocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftPreludeCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		317E4E2DBB8BEC63EEDE288D41444641 /* SwiftPrelude.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPrelude.modulemap; sourceTree = "<group>"; };
+		336F37DF21C19FD6DD336B97EB1AFDC4 /* CGSizeLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGSizeLenses.swift; sourceTree = "<group>"; };
 		3604C4D04F488E780536B13A87DE70CC /* Pods-SwiftPreludeCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPreludeCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		390BE0AA054403948D33EB3DC9EBF92C /* UIImageViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewLenses.swift; sourceTree = "<group>"; };
 		3C75C791352EADB28E0765CFCCF44987 /* SwiftPrelude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftPrelude.framework; path = SwiftPrelude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F839CA1983AF7C12F53F5678B0A2610 /* Pods-SwiftPreludeCocoa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPreludeCocoa_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40708F048B8AF6EAB9C6AA0F7AF20337 /* SwiftPrelude-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPrelude-umbrella.h"; sourceTree = "<group>"; };
+		43CF5C5CA4D80BEC27F07E34136C3595 /* SwiftPreludeCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPreludeCocoa.xcconfig; sourceTree = "<group>"; };
 		4B2604D602B9C98381077972C4FD9F4A /* Pods-SwiftPreludeCocoa_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPreludeCocoa_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5052CBC141D925C75A5AF56705A3D2AE /* Pods_SwiftPreludeCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPreludeCocoa_Tests.framework; path = "Pods-SwiftPreludeCocoa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5781EA7D9679F4402C7E01A51188606C /* CGSizeLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeLenses.swift; path = SwiftPreludeCocoa/Classes/CGSizeLenses.swift; sourceTree = "<group>"; };
 		582AF8AE7E4E5CBD2FC64577646F5463 /* Pods-SwiftPreludeCocoa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPreludeCocoa_Tests.modulemap"; sourceTree = "<group>"; };
+		5BE788DF5F736E4A1FCB27B00D2F5E3D /* UITableViewControllerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewControllerLenses.swift; sourceTree = "<group>"; };
+		5D7F9DB0EC916DE9E3F5153574519E39 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = SwiftPreludeCocoa/Classes/UIImage.swift; sourceTree = "<group>"; };
+		6244757FFDB6C31D324E52427488FB9C /* UIViewControllerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerLenses.swift; sourceTree = "<group>"; };
+		646C45AB72AC3872B82BB2498D2F0DBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66F55EF8CA973DFD1B4D1B69D993C268 /* SwiftPrelude-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPrelude-dummy.m"; sourceTree = "<group>"; };
+		679FF98185CE3FC56011280D9772C845 /* UIEdgeInsetsLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsLenses.swift; sourceTree = "<group>"; };
+		686D8ECEA8DBCB56308C7412D5149DD4 /* CALayerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CALayerLenses.swift; sourceTree = "<group>"; };
 		6A062DD38D01B94950E6F8FFB39BBD2B /* Pods-SwiftPreludeCocoa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPreludeCocoa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		71089931777529D29B9C1C601844C2A4 /* SwiftPreludeCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPreludeCocoa-dummy.m"; sourceTree = "<group>"; };
-		75E488B98F871C8A4DA9A12472E279A1 /* SwiftPreludeCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPreludeCocoa.modulemap; sourceTree = "<group>"; };
+		6CDF94325B33915B23950FCAE53DC224 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		70540F06E32F70FE602BAFAE3DB40576 /* SwiftPreludeCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPreludeCocoa-dummy.m"; sourceTree = "<group>"; };
+		740AE7BFFDE04E1EB9D1AD24F3908927 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = SwiftPreludeCocoa/Classes/UIButton.swift; sourceTree = "<group>"; };
+		7F503DB11D85405CFBF298207A98E740 /* WKWebViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WKWebViewLenses.swift; sourceTree = "<group>"; };
 		81116E0D0084F227747B7624A199A2D2 /* Pods-SwiftPreludeCocoa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPreludeCocoa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88615580552BD6B52C0CE426247BB7EE /* SwiftPreludeCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPreludeCocoa.xcconfig; sourceTree = "<group>"; };
+		8176C309BD4A7623C9DDA4C3C645EA30 /* UIProgressViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIProgressViewLenses.swift; sourceTree = "<group>"; };
+		81BF929EF72467F146C97C326142230E /* UITextInputTraitsLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextInputTraitsLenses.swift; sourceTree = "<group>"; };
+		874EF9F997A9F688C8E14862D9E5DE72 /* SwiftPreludeCocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftPreludeCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A73661030AEFB0DBC1C159B4B371E66 /* UITableViewCellLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewCellLenses.swift; sourceTree = "<group>"; };
+		8B27765C081890C0B3488EA258B88CC7 /* SwiftPreludeCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPreludeCocoa.modulemap; sourceTree = "<group>"; };
 		8CA270DA792504FF2203AD392BE7B7D6 /* SwiftPrelude.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPrelude.xcconfig; sourceTree = "<group>"; };
 		8CBFF9FDC7B67DD97628D258D85CB0E1 /* Pods-SwiftPreludeCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPreludeCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F1BD8B615D36647CEAF01DB63D6140A /* UIScrollViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIScrollViewLenses.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F429CCA2BAE1980B2915D60A5D5AF2 /* UIBarButtonItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemLenses.swift; sourceTree = "<group>"; };
+		9A3B69504D2497DF0AED0C47C54D1B9F /* UILabelLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelLenses.swift; sourceTree = "<group>"; };
+		9EF610045C46A25AE07685EE55768AA1 /* UIActivityIndicatorViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewLenses.swift; sourceTree = "<group>"; };
 		A33A7BB3A73059A0DF6AB38F3AC8A0D0 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = SwiftPrelude/Classes/Operators.swift; sourceTree = "<group>"; };
-		B6D13688202A22FA9281C7D028CEEE48 /* UIViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewLenses.swift; sourceTree = "<group>"; };
+		AEF1C9DBF5701E4987EDA5DF0CFD4B4E /* UINavigationItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationItemLenses.swift; sourceTree = "<group>"; };
+		B543BC2902656FEC80F951D3FA2C9CF2 /* LensHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LensHolder.swift; path = SwiftPreludeCocoa/Classes/LensHolder.swift; sourceTree = "<group>"; };
+		B836942EBB9546A3EB715C6BA46BC3DF /* SwiftPreludeCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPreludeCocoa-umbrella.h"; sourceTree = "<group>"; };
+		B84A5C654C9F0823B8EBB67B2CF2D8FE /* CGRectLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRectLenses.swift; sourceTree = "<group>"; };
+		BF22745F1F77C2C97CF54E85CA17AE31 /* UITabBarItemLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITabBarItemLenses.swift; sourceTree = "<group>"; };
 		BF3D10C3E833F87E15DB5195A31E22C8 /* Pods-SwiftPreludeCocoa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPreludeCocoa_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C3351F37444D6C1CE878100A2D472A33 /* Pods-SwiftPreludeCocoa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPreludeCocoa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4FA52F37326BD9BDDDC4DE0036A704A /* NSTextContainerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSTextContainerLenses.swift; sourceTree = "<group>"; };
+		C9B0A15DEA8ED463A79B10FA2D01865F /* UIControlLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIControlLenses.swift; sourceTree = "<group>"; };
 		CA3B314927E6D8C9D1801C80F8FDF106 /* Pods-SwiftPreludeCocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPreludeCocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CD374B004C44F231BF532CE92A87DE5E /* SwiftPreludeCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPreludeCocoa-prefix.pch"; sourceTree = "<group>"; };
+		CE9E78705AD37EB51ED5EB60FA8C809B /* UITraitEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITraitEnvironment.swift; sourceTree = "<group>"; };
 		CEFA5D4485BBA138432EC60817E1D1DE /* Pods-SwiftPreludeCocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPreludeCocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D32C3F19AB95179917BC3EAB748F5184 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7F4671BD53A8EE467DB9ADFA0D5D53 /* Pods-SwiftPreludeCocoa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPreludeCocoa_Tests-dummy.m"; sourceTree = "<group>"; };
+		DE7C89D931743B34F5714C8127A22BA1 /* CGPointLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPointLenses.swift; sourceTree = "<group>"; };
+		DF06A6796DF882283A4D552CA317C52C /* UIImageViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageViewLenses.swift; sourceTree = "<group>"; };
 		E5048F8ABD13FF20FA4ADD21A05161F0 /* Pods-SwiftPreludeCocoa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPreludeCocoa_Example-resources.sh"; sourceTree = "<group>"; };
+		E768444604AEA9E0ABEF3EC3F0D7B724 /* NSMutableParagraphStyleLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSMutableParagraphStyleLenses.swift; sourceTree = "<group>"; };
+		E8541E445A30609FD4194C2D83810018 /* UITextViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextViewLenses.swift; sourceTree = "<group>"; };
 		EB4CE09F71D50382CACE4B683A0C194A /* Pods-SwiftPreludeCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPreludeCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF08FDC39C524719E8338FE0BA034B74 /* UINavigationBarLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationBarLenses.swift; sourceTree = "<group>"; };
+		EF92F8030B5250F00EB405ECCC6510D8 /* UINavigationControllerLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationControllerLenses.swift; sourceTree = "<group>"; };
 		F1A548E997D5A0A9B62A051E3B2B5DD0 /* Lens.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lens.swift; path = SwiftPrelude/Classes/Lens.swift; sourceTree = "<group>"; };
-		FCD5E18A98D4821D350E1C83BA293949 /* SwiftPreludeCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPreludeCocoa-umbrella.h"; sourceTree = "<group>"; };
-		FDE3982159BEE4DB5FEACAA6D2322B3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F365688951D139782F6005FC6E5CDD0A /* UIViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewLenses.swift; sourceTree = "<group>"; };
+		F657C26215C2E7126769BEFC3870384E /* UIButtonLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonLenses.swift; sourceTree = "<group>"; };
+		F68DC0B77D6D75AA5F720252157E1008 /* SwiftPreludeCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPreludeCocoa-prefix.pch"; sourceTree = "<group>"; };
+		F9B01DC7E6B3F3CB18A696EBA4C9C29F /* UITableViewLenses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewLenses.swift; sourceTree = "<group>"; };
 		FED7B9ED8E9AEB109EBB25E4FF1A7AA0 /* Pods-SwiftPreludeCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPreludeCocoa_Example-dummy.m"; sourceTree = "<group>"; };
 		FFFD9B7EFA617FE2B483BE6B9DC1855D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +221,46 @@
 			path = SwiftPrelude;
 			sourceTree = "<group>";
 		};
+		0AAC2D5C24839C02E048BDFEFA322617 /* lenses */ = {
+			isa = PBXGroup;
+			children = (
+				686D8ECEA8DBCB56308C7412D5149DD4 /* CALayerLenses.swift */,
+				DE7C89D931743B34F5714C8127A22BA1 /* CGPointLenses.swift */,
+				B84A5C654C9F0823B8EBB67B2CF2D8FE /* CGRectLenses.swift */,
+				336F37DF21C19FD6DD336B97EB1AFDC4 /* CGSizeLenses.swift */,
+				E768444604AEA9E0ABEF3EC3F0D7B724 /* NSMutableParagraphStyleLenses.swift */,
+				C4FA52F37326BD9BDDDC4DE0036A704A /* NSTextContainerLenses.swift */,
+				9EF610045C46A25AE07685EE55768AA1 /* UIActivityIndicatorViewLenses.swift */,
+				98F429CCA2BAE1980B2915D60A5D5AF2 /* UIBarButtonItemLenses.swift */,
+				03D71A1DC6DD0A0051AA7DE57071FA0E /* UIBarItemLenses.swift */,
+				F657C26215C2E7126769BEFC3870384E /* UIButtonLenses.swift */,
+				C9B0A15DEA8ED463A79B10FA2D01865F /* UIControlLenses.swift */,
+				679FF98185CE3FC56011280D9772C845 /* UIEdgeInsetsLenses.swift */,
+				DF06A6796DF882283A4D552CA317C52C /* UIImageViewLenses.swift */,
+				9A3B69504D2497DF0AED0C47C54D1B9F /* UILabelLenses.swift */,
+				EF08FDC39C524719E8338FE0BA034B74 /* UINavigationBarLenses.swift */,
+				EF92F8030B5250F00EB405ECCC6510D8 /* UINavigationControllerLenses.swift */,
+				AEF1C9DBF5701E4987EDA5DF0CFD4B4E /* UINavigationItemLenses.swift */,
+				8176C309BD4A7623C9DDA4C3C645EA30 /* UIProgressViewLenses.swift */,
+				8F1BD8B615D36647CEAF01DB63D6140A /* UIScrollViewLenses.swift */,
+				BF22745F1F77C2C97CF54E85CA17AE31 /* UITabBarItemLenses.swift */,
+				179E980D8A13DCA3E6EE572C9A06D2B3 /* UITabBarLenses.swift */,
+				8A73661030AEFB0DBC1C159B4B371E66 /* UITableViewCellLenses.swift */,
+				5BE788DF5F736E4A1FCB27B00D2F5E3D /* UITableViewControllerLenses.swift */,
+				F9B01DC7E6B3F3CB18A696EBA4C9C29F /* UITableViewLenses.swift */,
+				076D1BF597C2A5600A44C7BC4DECD5FC /* UITextFieldLenses.swift */,
+				81BF929EF72467F146C97C326142230E /* UITextInputTraitsLenses.swift */,
+				E8541E445A30609FD4194C2D83810018 /* UITextViewLenses.swift */,
+				CE9E78705AD37EB51ED5EB60FA8C809B /* UITraitEnvironment.swift */,
+				6244757FFDB6C31D324E52427488FB9C /* UIViewControllerLenses.swift */,
+				F365688951D139782F6005FC6E5CDD0A /* UIViewLenses.swift */,
+				25424EAE06E5614F7A4746C8605908B3 /* UIWebViewLenses.swift */,
+				7F503DB11D85405CFBF298207A98E740 /* WKWebViewLenses.swift */,
+			);
+			name = lenses;
+			path = SwiftPreludeCocoa/Classes/lenses;
+			sourceTree = "<group>";
+		};
 		1646F4B420B5DAB42488DCF68CE8B0DB /* Pods-SwiftPreludeCocoa_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,26 +277,6 @@
 			);
 			name = "Pods-SwiftPreludeCocoa_Tests";
 			path = "Target Support Files/Pods-SwiftPreludeCocoa_Tests";
-			sourceTree = "<group>";
-		};
-		19B333D5670C84D1A38FAEFB403C9E8D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FDE3982159BEE4DB5FEACAA6D2322B3C /* LICENSE */,
-				1265CC26BA78E6814593C15B265A772C /* README.md */,
-				29F643E7129F509561893BD3C552589D /* SwiftPreludeCocoa.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		26291268FA3AF2E524D7B08BF7E8F4D0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				390BE0AA054403948D33EB3DC9EBF92C /* UIImageViewLenses.swift */,
-				B6D13688202A22FA9281C7D028CEEE48 /* UIViewLenses.swift */,
-			);
-			name = iOS;
-			path = SwiftPreludeCocoa/Classes/iOS;
 			sourceTree = "<group>";
 		};
 		266554F541D2061E92D5476BCCE37AFB /* Pods-SwiftPreludeCocoa_Example */ = {
@@ -227,22 +305,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5F74240B6A23DD1562E477595E8886B3 /* Development Pods */ = {
+		766CE3A1E5872D7E238FC7819F93A700 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EFE7E72FC865EF5376EEE6AC063BFD99 /* SwiftPreludeCocoa */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6C936FC4F5661D9084D45B98D117670C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				75E488B98F871C8A4DA9A12472E279A1 /* SwiftPreludeCocoa.modulemap */,
-				88615580552BD6B52C0CE426247BB7EE /* SwiftPreludeCocoa.xcconfig */,
-				71089931777529D29B9C1C601844C2A4 /* SwiftPreludeCocoa-dummy.m */,
-				CD374B004C44F231BF532CE92A87DE5E /* SwiftPreludeCocoa-prefix.pch */,
-				FCD5E18A98D4821D350E1C83BA293949 /* SwiftPreludeCocoa-umbrella.h */,
+				8B27765C081890C0B3488EA258B88CC7 /* SwiftPreludeCocoa.modulemap */,
+				43CF5C5CA4D80BEC27F07E34136C3595 /* SwiftPreludeCocoa.xcconfig */,
+				70540F06E32F70FE602BAFAE3DB40576 /* SwiftPreludeCocoa-dummy.m */,
+				F68DC0B77D6D75AA5F720252157E1008 /* SwiftPreludeCocoa-prefix.pch */,
+				B836942EBB9546A3EB715C6BA46BC3DF /* SwiftPreludeCocoa-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftPreludeCocoa";
@@ -252,7 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5F74240B6A23DD1562E477595E8886B3 /* Development Pods */,
+				B5BC63964D285897E9401F400A3143F3 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				43FB63745848FA5618B5498E52906AB4 /* Pods */,
 				F62F58FB5B75AC7E013DED3F01E00595 /* Products */,
@@ -267,6 +337,38 @@
 				1646F4B420B5DAB42488DCF68CE8B0DB /* Pods-SwiftPreludeCocoa_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A45D7EE2E90DD2DA82422E22B2EC7617 /* SwiftPreludeCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B543BC2902656FEC80F951D3FA2C9CF2 /* LensHolder.swift */,
+				740AE7BFFDE04E1EB9D1AD24F3908927 /* UIButton.swift */,
+				5D7F9DB0EC916DE9E3F5153574519E39 /* UIImage.swift */,
+				0AAC2D5C24839C02E048BDFEFA322617 /* lenses */,
+				B309E4AB91B7BA7272FD23B1F810F46A /* Pod */,
+				766CE3A1E5872D7E238FC7819F93A700 /* Support Files */,
+			);
+			name = SwiftPreludeCocoa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B309E4AB91B7BA7272FD23B1F810F46A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				646C45AB72AC3872B82BB2498D2F0DBC /* LICENSE */,
+				6CDF94325B33915B23950FCAE53DC224 /* README.md */,
+				874EF9F997A9F688C8E14862D9E5DE72 /* SwiftPreludeCocoa.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B5BC63964D285897E9401F400A3143F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45D7EE2E90DD2DA82422E22B2EC7617 /* SwiftPreludeCocoa */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -296,21 +398,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftPrelude";
-			sourceTree = "<group>";
-		};
-		EFE7E72FC865EF5376EEE6AC063BFD99 /* SwiftPreludeCocoa */ = {
-			isa = PBXGroup;
-			children = (
-				0055134D58BFC630043C8AB6A603B52A /* CGPointLenses.swift */,
-				26B3CC2B07957C426F2F93899B30D3FA /* CGRectLenses.swift */,
-				5781EA7D9679F4402C7E01A51188606C /* CGSizeLenses.swift */,
-				1661461BC1EF1BA2105FE53C1E8AC1FA /* LensHolder.swift */,
-				26291268FA3AF2E524D7B08BF7E8F4D0 /* iOS */,
-				19B333D5670C84D1A38FAEFB403C9E8D /* Pod */,
-				6C936FC4F5661D9084D45B98D117670C /* Support Files */,
-			);
-			name = SwiftPreludeCocoa;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F62F58FB5B75AC7E013DED3F01E00595 /* Products */ = {
@@ -402,7 +489,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32962C233A11F2F6140D4E0F53AAC071 /* Build configuration list for PBXNativeTarget "SwiftPreludeCocoa" */;
 			buildPhases = (
-				3F09424377F025DCD681D4D412FA7EAD /* Sources */,
+				12A733052815BDB195993E5E32B8B45F /* Sources */,
 				DE6572CBE98D8E6C7B8450A097196B0F /* Frameworks */,
 				9364DA1900BBC100C8DD0102A946D3D2 /* Headers */,
 			);
@@ -464,25 +551,54 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		12A733052815BDB195993E5E32B8B45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1094E8AD46C7B055A0A71A58D32CAABD /* CALayerLenses.swift in Sources */,
+				647D9EAC211E361CFFAF0ECD8E3D2F65 /* CGPointLenses.swift in Sources */,
+				5A0F8A2EBB1A7B92C148EC75AB7ED614 /* CGRectLenses.swift in Sources */,
+				1E618E605D1B94726DA66D56439CB577 /* CGSizeLenses.swift in Sources */,
+				78D164E5D6D14A30AFE247BC4FB7F258 /* LensHolder.swift in Sources */,
+				1CE4990A631618D464834D0523A607E1 /* NSMutableParagraphStyleLenses.swift in Sources */,
+				B9B7E26F6835868FEE72995392974568 /* NSTextContainerLenses.swift in Sources */,
+				76C3F54259E85ED63D4C4A5DE6B44170 /* SwiftPreludeCocoa-dummy.m in Sources */,
+				BDEA249E4E3EA5A593EC10E399CCE81C /* UIActivityIndicatorViewLenses.swift in Sources */,
+				54A2827598E1D11C9BD5754C8DD6B5AB /* UIBarButtonItemLenses.swift in Sources */,
+				4698EB59EA1EE5B9FA0B7210D493CE2E /* UIBarItemLenses.swift in Sources */,
+				8EDE4D42549750281899ECA021C293CF /* UIButton.swift in Sources */,
+				560D4F33F7CAF37D83232722DD6EDB15 /* UIButtonLenses.swift in Sources */,
+				27DDF1C9EA1CF7F3FADA4B1B438F28DE /* UIControlLenses.swift in Sources */,
+				F07DA1EB639BC70BE63C2124CA0506E0 /* UIEdgeInsetsLenses.swift in Sources */,
+				240D06351307DF0A02810933B5F4379F /* UIImage.swift in Sources */,
+				9974B0D3D7043D7AB0F61DE2544F2FC7 /* UIImageViewLenses.swift in Sources */,
+				D389B39EA335E509E45AAD6E7445033E /* UILabelLenses.swift in Sources */,
+				C87424FFD75D46F4F40A5AAC1EEA3BBA /* UINavigationBarLenses.swift in Sources */,
+				777C01BA9E9A34ED4B95AB32192A4BB6 /* UINavigationControllerLenses.swift in Sources */,
+				A382F21019F06749D52A8BB6FEB834E2 /* UINavigationItemLenses.swift in Sources */,
+				DB5DA749CD1100FF6FA7C5FB56F1E26B /* UIProgressViewLenses.swift in Sources */,
+				D167860901E6A59DEBDF52061AF92983 /* UIScrollViewLenses.swift in Sources */,
+				B11CFBB7BD7978C6A69382B71C3FD47B /* UITabBarItemLenses.swift in Sources */,
+				9AE576627EE069A49C0D494B122056E1 /* UITabBarLenses.swift in Sources */,
+				FA81574B6D0753D53930E190CBEF9685 /* UITableViewCellLenses.swift in Sources */,
+				F2E5FC56791BB9BE9D2539133211BA44 /* UITableViewControllerLenses.swift in Sources */,
+				A968EC7FF0EEF0FF81E1DEA090328828 /* UITableViewLenses.swift in Sources */,
+				FAC830F11EC52F554080A8E1D022AAAE /* UITextFieldLenses.swift in Sources */,
+				9469E5EBF277F152EEDC33ABDE5EA9C4 /* UITextInputTraitsLenses.swift in Sources */,
+				6314D16BCEE0E04EA3D64F9D8A295C19 /* UITextViewLenses.swift in Sources */,
+				A02E8C3ADF2239A68981F81C381C31DA /* UITraitEnvironment.swift in Sources */,
+				1E1F3F18BBCB79B37CDBB3192A5B3542 /* UIViewControllerLenses.swift in Sources */,
+				06A238AF041E1C9726BDE34F0A491C76 /* UIViewLenses.swift in Sources */,
+				644D6FD2EA5CF3F9C84F507506267AD8 /* UIWebViewLenses.swift in Sources */,
+				AB40F399A5BF14A2AEEE2A8A6274B653 /* WKWebViewLenses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		196FDD61960CD99295AC7CED98C96573 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C8B0CA0E6499ADDDF03FA5E2BB5558CB /* Pods-SwiftPreludeCocoa_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F09424377F025DCD681D4D412FA7EAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				931F1F0E289558EB09F21C878F2BE0FC /* CGPointLenses.swift in Sources */,
-				B1014972F705E3AD053A8A9C8987172D /* CGRectLenses.swift in Sources */,
-				E78B16978425BE9C5F5626EB0D650BCC /* CGSizeLenses.swift in Sources */,
-				1F1DCCE79977A4C3FBEFB82E1014A0D8 /* LensHolder.swift in Sources */,
-				226B944B167959C387163CFB0C6F3A5F /* SwiftPreludeCocoa-dummy.m in Sources */,
-				E4434B701F2F85CD380AC663F1143152 /* UIImageViewLenses.swift in Sources */,
-				49012DF1AB8EE334A0435B9D40E48BC5 /* UIViewLenses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,7 +887,7 @@
 		};
 		A3D06B770138FF72DD56AA59F7657F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88615580552BD6B52C0CE426247BB7EE /* SwiftPreludeCocoa.xcconfig */;
+			baseConfigurationReference = 43CF5C5CA4D80BEC27F07E34136C3595 /* SwiftPreludeCocoa.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -893,7 +1009,7 @@
 		};
 		F20E41E6F2199D826DFFB134A355F16F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88615580552BD6B52C0CE426247BB7EE /* SwiftPreludeCocoa.xcconfig */;
+			baseConfigurationReference = 43CF5C5CA4D80BEC27F07E34136C3595 /* SwiftPreludeCocoa.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
