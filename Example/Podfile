@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftPreludeCocoa_Example' do
+  pod 'SwiftPreludeCocoa', :path => '../'
+
+  target 'SwiftPreludeCocoa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
