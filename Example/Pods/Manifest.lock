@@ -1,7 +1,7 @@
 PODS:
   - SwiftPrelude (0.1.2)
   - SwiftPreludeCocoa (0.1.0):
-    - SwiftPrelude (~> 0.1.2s)
+    - SwiftPrelude (~> 0.1.2)
 
 DEPENDENCIES:
   - SwiftPreludeCocoa (from `../`)
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SwiftPrelude: cbf152d365f805d3ebf538b7b06b4d522f418df7
-  SwiftPreludeCocoa: 937be4f9c1ea44157b9ecc3dbf8f329c1f262a16
+  SwiftPreludeCocoa: 99757463b626fd466efd1ffc02dbdbb6befd223b
 
 PODFILE CHECKSUM: 153e1fba810a16bb7a1232e9738e1490d6334b7e
 

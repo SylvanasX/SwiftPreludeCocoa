@@ -5,9 +5,9 @@
 //  Created by Sylvanas on 2018/4/17.
 //
 
-import UIKit
 import SwiftPrelude
-import SwiftPreludeCocoa
+import UIKit
+
 
 public protocol UIImageViewProtocol: UIViewProtocol {
     var image: UIImage? { get set }
