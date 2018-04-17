@@ -1,0 +1,6 @@
+framework module SwiftPreludeCocoa {
+  umbrella header "SwiftPreludeCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}
