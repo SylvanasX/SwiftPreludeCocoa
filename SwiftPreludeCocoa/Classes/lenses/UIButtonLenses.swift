@@ -120,6 +120,10 @@ public extension LensHolder where Object: UIButtonProtocol {
 
 extension Lens where Whole: UIButtonProtocol, Part == UILabel {
 
+  public var adjustsFontSizeToFitWidth: Lens<Whole, Bool> {
+      return Whole.lens.titleLabel..Part.lens.adjustsFontSizeToFitWidth
+  }
+    
   public var font: Lens<Whole, UIFont> {
       return Whole.lens.titleLabel..Part.lens.font
   }
@@ -131,4 +135,6 @@ extension Lens where Whole: UIButtonProtocol, Part == UILabel {
   public var numberOfLines: Lens<Whole, Int> {
       return Whole.lens.titleLabel..Part.lens.numberOfLines
   }
+    
+    
 }
