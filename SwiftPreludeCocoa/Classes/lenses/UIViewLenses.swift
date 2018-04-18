@@ -11,6 +11,7 @@ public protocol UIViewProtocol: UITraitEnvironmentProtocol, LensObject {
   func contentHuggingPriority(for axis: UILayoutConstraintAxis) -> UILayoutPriority
   var contentMode: UIViewContentMode { get set }
   var frame: CGRect { get set }
+  var center: CGPoint { get set }
   var isHidden: Bool { get set }
   var layer: CALayer { get }
   var layoutMargins: UIEdgeInsets { get set }
@@ -85,6 +86,13 @@ public extension LensHolder where Object: UIViewProtocol {
       set: { $1.contentMode = $0; return $1 }
     )
   }
+  
+  public var center: Lens<Object, CGPoint> {
+    return Lens(
+      view: { $0.center },
+      set: { $1.center = $0; return $1 }
+    )
+  }
 
   public var frame: Lens<Object, CGRect> {
     return Lens(
@@ -147,6 +155,16 @@ public extension LensHolder where Object: UIViewProtocol {
       view: { $0.translatesAutoresizingMaskIntoConstraints },
       set: { $1.translatesAutoresizingMaskIntoConstraints = $0; return $1 }
     )
+  }
+}
+
+public extension Lens where Whole: UIViewProtocol, Part == CGPoint {
+  public var centerX: Lens<Whole, CGFloat> {
+    return Whole.lens.center..CGPoint.lens.x
+  }
+  
+  public var centerY: Lens<Whole, CGFloat> {
+    return Whole.lens.center..CGPoint.lens.y
   }
 }
 
