@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftPreludeCocoa'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftPreludeCocoa.'
+  s.version          = '0.1.4'
+  s.summary          = 'SwiftPreludeCocoa'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SwiftPreludeCocoa.
                        DESC
 
-  s.homepage         = 'https://github.com/yuanpeitao@gmail.com/SwiftPreludeCocoa'
+  s.homepage         = 'https://github.com/SylvanasX/SwiftPreludeCocoa'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yuanpeitao@gmail.com' => '10393625@qq.com' }
-  s.source           = { :git => 'https://github.com/yuanpeitao@gmail.com/SwiftPreludeCocoa.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SylvanasX/SwiftPreludeCocoa.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SwiftPreludeCocoa/Classes/**/*'
-  
+  s.static_framework = true
+  s.dependency 'SwiftPrelude', '~> 0.1.2'
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'SwiftPreludeCocoa' => ['SwiftPreludeCocoa/Assets/*.png']
   # }
