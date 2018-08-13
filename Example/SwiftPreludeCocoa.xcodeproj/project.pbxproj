@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* SwiftPreludeCocoa_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPreludeCocoa_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		680AD18DA1273C3A45127F2A /* SwiftPreludeCocoa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftPreludeCocoa.podspec; path = ../SwiftPreludeCocoa.podspec; sourceTree = "<group>"; };
+		680AD18DA1273C3A45127F2A /* SwiftPreludeCocoa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftPreludeCocoa.podspec; path = ../SwiftPreludeCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		984CFFD039C585A3D8ECF952 /* Pods_SwiftPreludeCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPreludeCocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56A9D612A7C986955AE1F74 /* Pods-SwiftPreludeCocoa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPreludeCocoa_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPreludeCocoa_Tests/Pods-SwiftPreludeCocoa_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C78FCA8C6F4CA751FBA3B710 /* Pods-SwiftPreludeCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPreludeCocoa_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPreludeCocoa_Example/Pods-SwiftPreludeCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CCD8465814CA4F35662A4984 /* Pods-SwiftPreludeCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPreludeCocoa_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPreludeCocoa_Tests/Pods-SwiftPreludeCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D53602732F3C284D51E0C517 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E4B7CD4F98DA37340FF04E4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D53602732F3C284D51E0C517 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E4B7CD4F98DA37340FF04E4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,11 +268,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPreludeCocoa_Example/Pods-SwiftPreludeCocoa_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftPreludeCocoa/SwiftPreludeCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftPrelude/SwiftPrelude.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPreludeCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPrelude.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

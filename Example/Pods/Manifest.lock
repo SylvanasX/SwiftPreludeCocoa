@@ -1,0 +1,23 @@
+PODS:
+  - SwiftPrelude (0.2.0)
+  - SwiftPreludeCocoa (0.1.4):
+    - SwiftPrelude (~> 0.2.0)
+
+DEPENDENCIES:
+  - SwiftPreludeCocoa (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftPrelude
+
+EXTERNAL SOURCES:
+  SwiftPreludeCocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftPrelude: 5e1102c0faf84acc12f1a7aaa3dad319cbdda88d
+  SwiftPreludeCocoa: 091ed69d8fbf18b8797ef8de0a3b00cec70c14f1
+
+PODFILE CHECKSUM: 153e1fba810a16bb7a1232e9738e1490d6334b7e
+
+COCOAPODS: 1.5.3
