@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftPreludeCocoa'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'SwiftPreludeCocoa'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ SwiftPreludeCocoa.
 
   s.source_files = 'SwiftPreludeCocoa/Classes/**/*'
   s.static_framework = true
-  s.dependency 'SwiftPrelude', '~> 0.2.0'
-  s.swift_version = '4.0'
+  s.dependency 'SwiftPrelude', '~> 0.2.2'
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'SwiftPreludeCocoa' => ['SwiftPreludeCocoa/Assets/*.png']
   # }

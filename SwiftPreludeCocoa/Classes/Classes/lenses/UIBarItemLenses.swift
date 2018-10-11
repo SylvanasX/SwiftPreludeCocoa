@@ -9,13 +9,13 @@ public protocol UIBarItemProtocol: NSObjectProtocol {
   var landscapeImagePhone: UIImage? { get set }
   var landscapeImagePhoneInsets: UIEdgeInsets { get set }
   var tag: Int { get set }
-  func titleTextAttributes(for state: UIControlState) -> [String: Any]?
-  func titleTextAttributes(for state: UIControlState) -> [NSAttributedStringKey: Any]?
-  func setTitleTextAttributes(_ attributes: [NSAttributedStringKey: Any]?, for state: UIControlState)
+  func titleTextAttributes(for state: UIControl.State) -> [String: Any]?
+  func titleTextAttributes(for state: UIControl.State) -> [NSAttributedString.Key: Any]?
+  func setTitleTextAttributes(_ attributes: [NSAttributedString.Key: Any]?, for state: UIControl.State)
 }
 
 extension UIBarItem: UIBarItemProtocol {
-  public func titleTextAttributes(for state: UIControlState) -> [NSAttributedStringKey: Any]? {
+  public func titleTextAttributes(for state: UIControl.State) -> [NSAttributedString.Key: Any]? {
     return self.titleTextAttributes(for: state)
   }
 }
@@ -29,7 +29,7 @@ public extension LensHolder where Object: UIBarItemProtocol {
     )
   }
 
-  public func titleTextAttributes(for state: UIControlState) -> Lens<Object, [NSAttributedStringKey: Any]?> {
+  public func titleTextAttributes(for state: UIControl.State) -> Lens<Object, [NSAttributedString.Key: Any]?> {
     return Lens(
       view: { $0.titleTextAttributes(for: state) },
       set: { $1.setTitleTextAttributes($0, for: state); return $1 }

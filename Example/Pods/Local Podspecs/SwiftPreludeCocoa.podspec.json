@@ -1,6 +1,6 @@
 {
   "name": "SwiftPreludeCocoa",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "summary": "SwiftPreludeCocoa",
   "description": "SwiftPreludeCocoa.",
   "homepage": "https://github.com/SylvanasX/SwiftPreludeCocoa",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SylvanasX/SwiftPreludeCocoa.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,7 +22,7 @@
   "static_framework": true,
   "dependencies": {
     "SwiftPrelude": [
-      "~> 0.2.0"
+      "~> 0.2.2"
     ]
   },
   "swift_version": "4.0"

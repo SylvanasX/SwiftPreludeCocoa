@@ -2,7 +2,7 @@ import SwiftPrelude
 import UIKit
 
 public protocol UIActivityIndicatorViewProtocol: UIViewProtocol {
-  var activityIndicatorViewStyle: UIActivityIndicatorViewStyle { get set }
+  var activityIndicatorViewStyle: UIActivityIndicatorView.Style { get set }
   var color: UIColor? { get set }
   var hidesWhenStopped: Bool { get set }
   var isAnimating: Bool { get }
@@ -14,7 +14,7 @@ extension UIActivityIndicatorView: UIActivityIndicatorViewProtocol {}
 
 public extension LensHolder where Object: UIActivityIndicatorViewProtocol {
 
-  public var activityIndicatorViewStyle: Lens<Object, UIActivityIndicatorViewStyle> {
+  public var activityIndicatorViewStyle: Lens<Object, UIActivityIndicatorView.Style> {
     return Lens(
       view: { $0.activityIndicatorViewStyle },
       set: { $1.activityIndicatorViewStyle = $0; return $1 }
