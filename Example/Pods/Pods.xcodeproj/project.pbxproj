@@ -733,6 +733,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01372393A20CEB257C2BE2A10EC65EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41105CE601E04CB4F9C1CF5D86FF7E24 /* SwiftPreludeCocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPreludeCocoa/SwiftPreludeCocoa-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SwiftPreludeCocoa/SwiftPreludeCocoa.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPreludeCocoa;
+				PRODUCT_NAME = SwiftPreludeCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		15191AE9AB2BCE63EACE50357EA41115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CBFF9FDC7B67DD97628D258D85CB0E1 /* Pods-SwiftPreludeCocoa_Example.release.xcconfig */;
@@ -894,41 +928,7 @@
 			};
 			name = Release;
 		};
-		70C963BA00F96AA1B41AAB1DF1F91FBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41105CE601E04CB4F9C1CF5D86FF7E24 /* SwiftPreludeCocoa.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftPreludeCocoa/SwiftPreludeCocoa-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/SwiftPreludeCocoa/SwiftPreludeCocoa.modulemap";
-				PRODUCT_MODULE_NAME = SwiftPreludeCocoa;
-				PRODUCT_NAME = SwiftPreludeCocoa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B6AD82990F414F25BB898E29199C1BC /* Debug */ = {
+		703073D44ACAA1998B43B37F39F4FD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41105CE601E04CB4F9C1CF5D86FF7E24 /* SwiftPreludeCocoa.xcconfig */;
 			buildSettings = {
@@ -953,7 +953,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1168,8 +1168,8 @@
 		DBC0499FA2128D68790BB0EFE308755E /* Build configuration list for PBXNativeTarget "SwiftPreludeCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B6AD82990F414F25BB898E29199C1BC /* Debug */,
-				70C963BA00F96AA1B41AAB1DF1F91FBC /* Release */,
+				703073D44ACAA1998B43B37F39F4FD34 /* Debug */,
+				01372393A20CEB257C2BE2A10EC65EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

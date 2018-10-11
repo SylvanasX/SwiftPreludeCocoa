@@ -3,7 +3,7 @@ import UIKit
 
 public protocol UIScrollViewProtocol: UIViewProtocol {
   var canCancelContentTouches: Bool { get set }
-  var decelerationRate: CGFloat { get set }
+  var decelerationRate: UIScrollView.DecelerationRate { get set }
   var delaysContentTouches: Bool { get set }
   var keyboardDismissMode: UIScrollView.KeyboardDismissMode { get set }
   var isScrollEnabled: Bool { get set }
@@ -24,7 +24,7 @@ public extension LensHolder where Object: UIScrollViewProtocol {
     )
   }
 
-  public var decelerationRate: Lens<Object, CGFloat> {
+  public var decelerationRate: Lens<Object, UIScrollView.DecelerationRate> {
     return Lens(
       view: { $0.decelerationRate },
       set: { $1.decelerationRate = $0; return $1 }

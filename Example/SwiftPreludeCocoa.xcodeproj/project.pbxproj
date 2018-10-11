@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				06C7C07589705D85A1132C27 /* [CP] Embed Pods Frameworks */,
+				601B5358CC57CFA5CBB2AF1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,16 +261,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06C7C07589705D85A1132C27 /* [CP] Embed Pods Frameworks */ = {
+		601B5358CC57CFA5CBB2AF1A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPreludeCocoa_Example/Pods-SwiftPreludeCocoa_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftPrelude/SwiftPrelude.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPrelude.framework",
 			);

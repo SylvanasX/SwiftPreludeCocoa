@@ -9,16 +9,15 @@ public protocol UIBarItemProtocol: NSObjectProtocol {
   var landscapeImagePhone: UIImage? { get set }
   var landscapeImagePhoneInsets: UIEdgeInsets { get set }
   var tag: Int { get set }
-  func titleTextAttributes(for state: UIControl.State) -> [String: Any]?
   func titleTextAttributes(for state: UIControl.State) -> [NSAttributedString.Key: Any]?
   func setTitleTextAttributes(_ attributes: [NSAttributedString.Key: Any]?, for state: UIControl.State)
 }
 
-extension UIBarItem: UIBarItemProtocol {
-  public func titleTextAttributes(for state: UIControl.State) -> [NSAttributedString.Key: Any]? {
-    return self.titleTextAttributes(for: state)
-  }
-}
+//extension UIBarItem: UIBarItemProtocol {
+//  public func titleTextAttributes(for state: UIControl.State) -> [NSAttributedString.Key: Any]? {
+//    return self.titleTextAttributes(for: state)
+//  }
+//}
 
 public extension LensHolder where Object: UIBarItemProtocol {
 
