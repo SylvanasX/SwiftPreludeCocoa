@@ -15,8 +15,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        _ = view |> UIView.lens.backgroundColor .~ UIColor.green >>> UIView.lens.layer.borderColor .~ UIColor.yellow.cgColor
-//            <> UIView.lens.layer.borderWidth .~ 2
+        _ = view
+            |> UIView.lens.backgroundColor .~ UIColor.green
+            >>> UIView.lens.layer.borderColor .~ UIColor.yellow.cgColor
+            >>> UIView.lens.layer.borderWidth .~ 3.0
+        
+        let array = [1, 2, 3]
+        
+        let y = String.init <¢> array
+        print(y)
     }
 
     override func didReceiveMemoryWarning() {
