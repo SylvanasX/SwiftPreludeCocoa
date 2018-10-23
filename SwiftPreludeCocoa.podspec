@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftPreludeCocoa'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'SwiftPreludeCocoa'
 
 # This description is used to generate tags and improve search results.
@@ -29,10 +29,14 @@ SwiftPreludeCocoa.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.9'
+  s.source_files = 'SwiftPreludeCocoa/Classes/LensHolder.swift', 'SwiftPreludeCocoa/Classes/lenses/Common/**/*'
+  
+  s.ios.source_files = 'SwiftPreludeCocoa/Classes/lenses/iOS/**/*'
+  s.osx.source_files = 'SwiftPreludeCocoa/Classes/lenses/macOS/**/*'
 
-  s.source_files = 'SwiftPreludeCocoa/Classes/**/*'
   s.static_framework = true
-  s.dependency 'SwiftPrelude', '~> 0.2.3'
+  s.dependency 'SwiftPrelude', '~> 0.2.5'
   s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'SwiftPreludeCocoa' => ['SwiftPreludeCocoa/Assets/*.png']
