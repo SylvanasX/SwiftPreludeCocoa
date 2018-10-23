@@ -1,5 +1,4 @@
 import SwiftPrelude
-import UIKit
 
 public protocol NSMutableParagraphStyleProtocol: NSObjectProtocol {
   var alignment: NSTextAlignment { get set }

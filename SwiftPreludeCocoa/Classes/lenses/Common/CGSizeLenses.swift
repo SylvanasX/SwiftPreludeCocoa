@@ -1,5 +1,4 @@
 import SwiftPrelude
-import UIKit
 
 extension CGSize {
   public enum lens {

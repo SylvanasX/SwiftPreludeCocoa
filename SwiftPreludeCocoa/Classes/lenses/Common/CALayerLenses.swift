@@ -1,5 +1,4 @@
 import SwiftPrelude
-import UIKit
 
 public protocol CALayerProtocol: NSObjectProtocol {
   var borderColor: CGColor? { get set }

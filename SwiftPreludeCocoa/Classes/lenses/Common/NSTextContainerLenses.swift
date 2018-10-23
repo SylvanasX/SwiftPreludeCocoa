@@ -1,5 +1,4 @@
 import SwiftPrelude
-import UIKit
 
 public protocol NSTextContainerProtocol: NSObjectProtocol {
   var lineFragmentPadding: CGFloat { get set }
